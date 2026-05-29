@@ -33,3 +33,13 @@ The models hyperparameters can be easily adjusted, however the best results are 
   - FullyConnectedLayer1: 128
   - Dropout: 0.2 (Can be turned off)
   - FullyConnectedLayer2: 10 (Output) (softmax activation)
+
+## Results
+Results on the train, validation, and test sets are provided below. The model hyperparameters and architecture chosen for test evaluation is shown in the "Model Hyperparameters" and "Model Architecture" section of this readme file. 
+
+The model trained for 20 epochs but it restored to epoch 16:
+  - Train accuracy: 0.998, loss: 0.0009
+  - Validation accuracy: 0.9932 , loss: 0.0340
+  - Test accuracy: 0.9910 , loss: 0.0321
+
+Training plots are provided in the repository
